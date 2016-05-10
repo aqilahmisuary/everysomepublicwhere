@@ -57,5 +57,16 @@ h3, p {
 ol.list {
     list-style-type: none;
     text-align: center;
+    margin: 0%;
+}
+
+#binary {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+#text2 a:link, a:visited {
+   color: grey;
 }
 
