@@ -5,8 +5,7 @@ div, p {
 
 body {margin: 0; padding: 0; background-size: 100% 100%;} 
 a {color: #2b2bf6;}  
-
-#container {height: 600px; margin: 0; padding: 0; background-size: 100% 100%; background-image: url("../images/colourtrees.jpg");}           
+          
 #header {height: 100%; margin: 0; padding: 0; border: 0; background: #f346e1; background-size: 100% 100%;}           
 #sidebar {margin: 0; padding: 0; border: 0; float: left; background: #f0e811; background-size: 100% 100%;}           
 #content {height: 100%; width: 60%; margin: 0; padding: 2%; border: 0; float: left; background: #8be0ef; background-size: 100% 100%;}    
@@ -24,3 +23,39 @@ a {color: #2b2bf6;}
     /*position: fixed;  Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }  
+
+#text {
+    margin: 20%;
+    font-size: 40px;
+}
+
+#text a:link, a:visited {
+    color: black;
+}
+
+h1, p, h3, form, button {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 26.4px;
+    text-align: center;
+}
+
+button {
+  font-size: 12px;
+  width: 60px;
+  height: 60px;
+}
+
+h3, p {
+  font-size: 30px;
+}
+
+#done, ol {
+    font-size: 15px;
+}
+
+ol.list {
+    list-style-type: none;
+    text-align: center;
+}
+
