@@ -70,3 +70,8 @@ ol.list {
    color: grey;
 }
 
+img {
+  height: 100%;
+  width: 100%;
+}
+
