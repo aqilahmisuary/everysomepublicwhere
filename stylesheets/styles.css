@@ -2,3 +2,25 @@ div, p {
   text-align: center;
   font-size: 12;
 }
+
+body {margin: 0; padding: 0; background-size: 100% 100%;} 
+a {color: #2b2bf6;}  
+
+#container {height: 600px; margin: 0; padding: 0; background-size: 100% 100%; background-image: url("../images/colourtrees.jpg");}           
+#header {height: 100%; margin: 0; padding: 0; border: 0; background: #f346e1; background-size: 100% 100%;}           
+#sidebar {margin: 0; padding: 0; border: 0; float: left; background: #f0e811; background-size: 100% 100%;}           
+#content {height: 100%; width: 60%; margin: 0; padding: 2%; border: 0; float: left; background: #8be0ef; background-size: 100% 100%;}    
+#content p {font-family: Arial; font-size: 14px}    
+#content_second {height: 100%; width: 100%; margin: 0; padding: 2%; border: 0; float: right;}             
+#footer {height: 70px; width: 100%;  margin: 0; padding: 0; border: 0; float: left; background: #000000; clear:both; background-size: 100% 100%;} 
+
+#sidebar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #f1f1f1;
+    height: 100%; /* Full height */
+    /*position: fixed;  Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}  
